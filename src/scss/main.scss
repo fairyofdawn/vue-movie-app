@@ -1,0 +1,21 @@
+
+// bootstrap customize - 부트스트랩에 기본적으로 설정되어있는 설정들을 커스터마이징함 ex) 버튼색
+
+// Default variable overrides
+$primary : #FFA500; //primary 컬러는 부트스트랩에서 기본적으로 blue 컬러로 정의되어있지만, 주황색으로 직접 재정의(커스터마이징) 함.
+
+$container-max-widths: (    //컨테이너의 가로 너비를 설정
+  sm: 540px,
+  md: 704px,
+  lg: 924px,
+  xl: 1140px,
+  xxl: 1364px
+);
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";  //variables에 위의 primary 와 같은 색상이 저장되어있기 때문에 variables를 import해오기 전에 정의해야함.
+@import "../../node_modules/bootstrap/scss/mixins";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"; //bootstrap 다운로드된 경로 
+
