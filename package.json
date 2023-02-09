@@ -47,5 +47,9 @@
     "vue": "^3.2.36",
     "vue-router": "^4.0.13",
     "vuex": "^4.1.0"
+  },
+  "browser": {
+    "[module-name]": false   
   }
+
 }
