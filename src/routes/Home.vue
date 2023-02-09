@@ -1,17 +1,17 @@
 <template>
-  <Headline />
+  <HeadLine />
   <Search />
   <MovieList />
 </template>
 
 <script>
-import Headline from '../components/Headline.vue'
+import HeadLine from '../components/HeadLine.vue'
 import Search from '../components/Search.vue'
 import MovieList from '../components/MovieList.vue'
 
 export default {
   components: {
-    Headline,
+    HeadLine,
     Search,
     MovieList
   },
